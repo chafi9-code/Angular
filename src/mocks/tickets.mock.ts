@@ -7,12 +7,14 @@ export const TICKETS_MOCKED: Ticket[] = [
     title: 'SI4 in Argentina',
     description: '',
     date: dateToday,
-    student: 'Paul'
+    student: 'Paul',
+    major: 'GB'
   },
   {
     title: 'SI5 in Russia',
     description: 'Description du voyage',
     date: dateToday,
-    student: 'Anakin'
+    student: 'Anakin',
+    major: 'GE'
   },
 ];

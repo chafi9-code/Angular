@@ -28,4 +28,8 @@ export class TicketService {
     // More info: https://angular.io/tutorial/toh-pt6#the-searchterms-rxjs-subject
     this.ticketList.push(ticket);
   }
+  deleteTicket(ticket: Ticket) {
+    const index : number = this.ticketList.indexOf(ticket);
+    this.ticketList.splice(index, 1);
+  }
 }
